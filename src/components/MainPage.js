@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import confetti from 'canvas-confetti';
-import './MainPage.css';
+import '../assets/css/MainPage.css';
 
 function MainPage() {
   const [foodName, setFoodName] = useState('');
